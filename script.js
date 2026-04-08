@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('scroll', () => {
         const currentScrollY = window.scrollY;
-        // Calculate the first fold based on hero section height
+        // Calculate the first fold based on hero section height.
         const firstFold = heroSection ? (heroSection.offsetTop + heroSection.offsetHeight) : window.innerHeight;
 
         if (currentScrollY > firstFold) {
